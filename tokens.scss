@@ -1,176 +1,176 @@
 //Global Tokens
 
 //font-size
-$font-size-xxxs: '12px';
-$font-size-xxs: '14px';
-$font-size-xs: '16px';
-$font-size-sm: '20px';
-$font-size-md: '24px';
-$font-size-lg: '32px';
-$font-size-xl: '40px';
-$font-size-xxl: '48px';
-$font-size-xxxl: '64px';
-$font-size-display: '80px';
-$font-size-giant: '96px';
+$font-size-xxxs: 12px;
+$font-size-xxs: 14px ;
+$font-size-xs: 16px;
+$font-size-sm: 20px;
+$font-size-md: 24px;
+$font-size-lg: 32px;
+$font-size-xl: 40px;
+$font-size-xxl: 48px;
+$font-size-xxxl: 64px;
+$font-size-display: 80px;
+$font-size-giant: 96px;
 
 //line-height
-$line-height-default: '100%';
-$line-height-xs: '115%';
-$line-height-sm: '120%';
-$line-height-md: '133%';
-$line-height-lg: '150%';
-$line-height-xl: '170%';
-$line-height-xxl: '200%';
+$line-height-default: 100%;
+$line-height-xs: 115%;
+$line-height-sm: 120%;
+$line-height-md: 133%;
+$line-height-lg: 150%;
+$line-height-xl: 170%;
+$line-height-xxl: 200%;
 
 //border-radius
-$border-radius-none: '0px';
-$border-radius-sm: '8px';
-$border-radius-md: '16px';
-$border-radius-lg: '24px';
-$border-radius-pill: '500px';
-$border-radius-circular: '50%';
+$border-radius-none: 0px;
+$border-radius-sm: 8px;
+$border-radius-md: 16px;
+$border-radius-lg: 24px;
+$border-radius-pill: 500px;
+$border-radius-circular: 50%;
 
 //border-width
-$border-width-none: '0px';
-$border-width-hairline: '1px';
-$border-width-thin: '2px';
-$border-width-thick: '4px';
-$border-width-heavy: '8px';
+$border-width-none: 0px;
+$border-width-hairline: 1px;
+$border-width-thin: 2px;
+$border-width-thick: 4px;
+$border-width-heavy: 8px;
 
 //opacity-levels
-$opacity-level-semiopaque: '0.72';
-$opacity-level-intense: '0.64';
-$opacity-level-medium: '0.32';
-$opacity-level-light: '0.16';
-$opacity-level-semitransparent: '0.08';
+$opacity-level-semiopaque: 0.72;
+$opacity-level-intense: 0.64;
+$opacity-level-medium: 0.32;
+$opacity-level-light: 0.16;
+$opacity-level-semitransparent: 0.08;
 
 //shadow
-$shadow-level-1: '0px 4px 8px #000000';
-$shadow-level-2: '0px 8px 24px #000000';
-$shadow-level-3: '0px 16px 32px #000000';
-$shadow-level-4: '0px 16px 48px #000000';
+$shadow-level-1: 0px 4px 8px #000000;
+$shadow-level-2: 0px 8px 24px #000000;
+$shadow-level-3: 0px 16px 32px #000000;
+$shadow-level-4: 0px 16px 48px #000000;
 
 //spacing
-$spacing-quarck: '4px';
-$spacing-nano: '8px';
-$spacing-xxxs: '16px';
-$spacing-xxs: '24px';
-$spacing-xs: '32px';
-$spacing-sm: '40px';
-$spacing-md: '48px';
-$spacing-lg: '56px';
-$spacing-xl: '64px';
-$spacing-xxl: '80px';
-$spacing-xxxl: '120px';
-$spacing-huge: '160px';
-$spacing-giant: '200px';
+$spacing-quarck: 4px;
+$spacing-nano: 8px;
+$spacing-xxxs: 16px;
+$spacing-xxs: 24px;
+$spacing-xs: 32px;
+$spacing-sm: 40px;
+$spacing-md: 48px;
+$spacing-lg: 56px;
+$spacing-xl: 64px;
+$spacing-xxl: 80px;
+$spacing-xxxl: 120px;
+$spacing-huge: 160px;
+$spacing-giant: 200px;
 
 //spacing inset
-$spacing_inset-quarck: '4px';
-$spacing_inset-nano: '8px';
-$spacing_inset-xs: '16px';
-$spacing_inset-sm: '24px';
-$spacing_inset-md: '32px';
-$spacing_inset-lg: '40px';
+$spacing_inset-quarck: 4px;
+$spacing_inset-nano: 8px;
+$spacing_inset-xs: 16px;
+$spacing_inset-sm: 24px;
+$spacing_inset-md: 32px;
+$spacing_inset-lg: 40px;
 
 //spacing squish
-$spacing_squish-quarck: '4px 8px';
-$spacing_squish-nano: '8px 16px';
-$spacing_squish-xs: '16px 24px';
-$spacing_squish-sm: '16px 32px';
+$spacing_squish-quarck: 4px 8px;
+$spacing_squish-nano: 8px 16px;
+$spacing_squish-xs: 16px 24px;
+$spacing_squish-sm: 16px 32px;
 
 //Motion Tokens Globais
 
 //Scale
-$scale-small: '5%';
-$scale-medium: '25%';
-$scale-large: '50%';
+$scale-small: 5%;
+$scale-medium: 25%;
+$scale-large: 50%;
 
 //Rotation
-$rotation-tilt: '90';
-$rotation-flip: '180';
-$rotation-roll: '360';
+$rotation-tilt: 90;
+$rotation-flip: 180;
+$rotation-roll: 360;
 
 //Velocity
-$velocity-slow: '0.275';
-$velocity-medium: '0.225';
-$velocity-fast: '0.2';
+$velocity-slow: 0.275;
+$velocity-medium: 0.225;
+$velocity-fast: 0.2;
 
 //Vibe
-$vibe-soft: 'Cubic-bezier(0.48, 0, 0.48, 1)';
-$vibe-calm: 'Cubic-bezier(0.64, 0, 0.92, 1)';
-$vibe-energic: 'Cubic-bezier(0.08, 0, 0.35, 1)';
+$vibe-soft: Cubic-bezier(0.48, 0, 0.48, 1);
+$vibe-calm: Cubic-bezier(0.64, 0, 0.92, 1);
+$vibe-energic: Cubic-bezier(0.08, 0, 0.35, 1);
 
 //Typograph
 
 //Highlights
-$font-family-highlight: 'Reckless';
-$font-weight-bold: '700';
-$font-weight-light: '600';
-$font-weight-regular: '400';
+$font-family-highlight: Reckless;
+$font-weight-bold: 700;
+$font-weight-light: 600;
+$font-weight-regular: 400;
 
 //Base
-$font-family-base: 'ABC Diatype';
-$font-weight-bold: '700';
-$font-weight-light: '600';
-$font-weight-regular: '400';
+$font-family-base: ABC Diatype;
+$font-weight-bold: 700;
+$font-weight-light: 600;
+$font-weight-regular: 400;
 
 //Brand Colors
 
 //Primary
-$brand-color-primary-pure: '#000000';
-$brand-color-primary-light: '#A3A3A3';
-$brand-color-primary-medium: '#666666';
-$brand-color-primary-dark: '#292929';
+$brand-color-primary-pure: #000000;
+$brand-color-primary-light: #A3A3A3;
+$brand-color-primary-medium: #666666;
+$brand-color-primary-dark: #292929;
 
 //Secundary
-$brand-color-secundary-pure: '#3C875F';
-$brand-color-secundary-light: '#66E8A3';
-$brand-color-secundary-medium: '#50B57F';
-$brand-color-secundary-dark: '#4D695A';
+$brand-color-secundary-pure: #3C875F;
+$brand-color-secundary-light: #66E8A3;
+$brand-color-secundary-medium: #50B57F;
+$brand-color-secundary-dark: #4D695A;
 
 //Highlights
-$highlight-color-pure: '#F673AD';
-$highlight-color-light: '#FDD9E9';
-$highlight-color-medium: '#900945';
-$highlight-color-dark: '#430420';
+$highlight-color-pure: #F673AD;
+$highlight-color-light: #FDD9E9;
+$highlight-color-medium: #900945;
+$highlight-color-dark: #430420;
 
 //Neutral
-$neutral-color-low-pure: '#000000';
-$neutral-color-low-light: '#A3A3A3';
-$neutral-color-low-medium: '#666666';
-$neutral-color-low-dark: '#292929';
+$neutral-color-low-pure: #000000;
+$neutral-color-low-light: #A3A3A3;
+$neutral-color-low-medium: #666666;
+$neutral-color-low-dark: #292929;
 
-$neutral-color-high-pure: '#FFFFFF';
-$neutral-color-high-light: '#F5F5F5';
-$neutral-color-high-medium: '#E0E0E0';
-$neutral-color-high-dark: '#D3D3D3';
+$neutral-color-high-pure: #FFFFFF;
+$neutral-color-high-light: #F5F5F5;
+$neutral-color-high-medium: #E0E0E0;
+$neutral-color-high-dark: #D3D3D3;
 
 //Feedback
-$feedback-color-warning-pure: '##9847F5';
-$feedback-color-warning-light: '#D9BBFB';
-$feedback-color-warning-medium: '#6D469B';
-$feedback-color-warning-dark: '#4E148F';
+$feedback-color-warning-pure: ##9847F5;
+$feedback-color-warning-light: #D9BBFB;
+$feedback-color-warning-medium: #6D469B;
+$feedback-color-warning-dark: #4E148F;
 
-$feedback-color-helper-pure: '#FF8A00';
-$feedback-color-helper-light: '#FFE3C2';
-$feedback-color-helper-medium: '#CC6E00';
-$feedback-color-helper-dark: '#7A4200';
+$feedback-color-helper-pure: #FF8A00;
+$feedback-color-helper-light: #FFE3C2;
+$feedback-color-helper-medium: #CC6E00;
+$feedback-color-helper-dark: #7A4200;
 
-$feedback-color-info-pure: '#1474FF';
-$feedback-color-info-light: '#D6E7FF';
-$feedback-color-info-medium: '#00327A';
-$feedback-color-info-dark: '#001129';
+$feedback-color-info-pure: #1474FF;
+$feedback-color-info-light: #D6E7FF;
+$feedback-color-info-medium: #00327A;
+$feedback-color-info-dark: #001129;
 
-$feedback-color-success-pure: '#3C875F';
-$feedback-color-success-light: '#66E8A3';
-$feedback-color-success-medium: '#50B57F';
-$feedback-color-success-dark: '#4D695A';
+$feedback-color-success-pure: #3C875F;
+$feedback-color-success-light: #66E8A3;
+$feedback-color-success-medium: #50B57F;
+$feedback-color-success-dark: #4D695A;
 
-$feedback-color-fail-pure: '#FF8A00';
-$feedback-color-fail-light: '#FB4B7A';
-$feedback-color-fail-medium: '#FA0043';
-$feedback-color-fail-dark: '#7A253C';
+$feedback-color-fail-pure: #FF8A00;
+$feedback-color-fail-light: #FB4B7A;
+$feedback-color-fail-medium: #FA0043;
+$feedback-color-fail-dark: #7A253C;
 
 //Motion
 
