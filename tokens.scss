@@ -1,121 +1,211 @@
-// Tokens Colors
-$color-brand-pure: #FFC709;
-$color-brand-01: #FFE799;
-$color-brand-02: #E0AD00;
-$color-brand-03: #B88D00;
+//Global Tokens
 
-$color-neutral-dark-pure: #121212;
-$color-neutral-dark-01: #666666;
-$color-neutral-dark-02: #3D3D3D;
-$color-neutral-dark-03: #1F1F1F;
+//font-size
+$font-size-xxxs: '12px';
+$font-size-xxs: '14px';
+$font-size-xs: '16px';
+$font-size-sm: '20px';
+$font-size-md: '24px';
+$font-size-lg: '32px';
+$font-size-xl: '40px';
+$font-size-xxl: '48px';
+$font-size-xxxl: '64px';
+$font-size-display: '80px';
+$font-size-giant: '96px';
 
-$color-neutral-light-pure: #FFFFFF;
-$color-neutral-light-01: #F0F0F0;
-$color-neutral-light-02: #CCCCCC;
-$color-neutral-light-03: #888888;
+//line-height
+$line-height-default: '100%';
+$line-height-xs: '115%';
+$line-height-sm: '120%';
+$line-height-md: '133%';
+$line-height-lg: '150%';
+$line-height-xl: '170%';
+$line-height-xxl: '200%';
 
-$color-risk-very-hight: #EB0000;
-$color-risk-hight: #FF9100;
-$color-risk-medium: #BD9700;
-$color-risk-low: #47E089;
-$color-risk-very-low: #00B4F5;
+//border-radius
+$border-radius-none: '0px';
+$border-radius-sm: '8px';
+$border-radius-md: '16px';
+$border-radius-lg: '24px';
+$border-radius-pill: '500px';
+$border-radius-circular: '50%';
 
-// Tokens Font Size
-$font-size-US: 0.75rem;
-$font-size-XXXS: 0.875rem;
-$font-size-XXS: 1rem;
-$font-size-XS: 1.25rem;
-$font-size-SM: 1.5rem;
-$font-size-MD: 2rem;
-$font-size-LG: 2.5rem;
-$font-size-XL: 3rem;
-$font-size-XXL: 3.5rem;
-$font-size-XXXL: 4rem;
-$font-size-UL: 5rem;
+//border-width
+$border-width-none: '0px';
+$border-width-hairline: '1px';
+$border-width-thin: '2px';
+$border-width-thick: '4px';
+$border-width-heavy: '8px';
 
-// Tokens Spacing Stack
-$spacing-stack-XXXS: 4px;
-$spacing-stack-XXS: 8px;
-$spacing-stack-XS: 16px;
-$spacing-stack-SM: 24px;
-$spacing-stack-MD: 32px;
-$spacing-stack-LG: 40px;
-$spacing-stack-XL: 64px;
-$spacing-stack-XXL: 96px;
-$spacing-stack-XXXL: 128px;
+//opacity-levels
+$opacity-level-semiopaque: '0.72';
+$opacity-level-intense: '0.64';
+$opacity-level-medium: '0.32';
+$opacity-level-light: '0.16';
+$opacity-level-semitransparent: '0.08';
 
-// Tokens Spacing Inline
-$spacing-inline-XXXS: 4px;
-$spacing-inline-XXS: 8px;
-$spacing-inline-XS: 16px;
-$spacing-inline-SM: 24px;
-$spacing-inline-MD: 32px;
-$spacing-inline-LG: 40px;
-$spacing-inline-XL: 48px;
-$spacing-inline-XXL: 56px;
-$spacing-inline-XXXL: 64px;
+//shadow
+$shadow-level-1: '0px 4px 8px #000000';
+$shadow-level-2: '0px 8px 24px #000000';
+$shadow-level-3: '0px 16px 32px #000000';
+$shadow-level-4: '0px 16px 48px #000000';
 
-// Tokens Line Height
-$line-height-rule1: 100%;
-$line-height-rule2: 110%;
-$line-height-rule3: 150%;
+//spacing
+$spacing-quarck: '4px';
+$spacing-nano: '8px';
+$spacing-xxxs: '16px';
+$spacing-xxs: '24px';
+$spacing-xs: '32px';
+$spacing-sm: '40px';
+$spacing-md: '48px';
+$spacing-lg: '56px';
+$spacing-xl: '64px';
+$spacing-xxl: '80px';
+$spacing-xxxl: '120px';
+$spacing-huge: '160px';
+$spacing-giant: '200px';
 
-// Tokens Font Weight
-$font-family-base: 'Roboto', sans-serif;
-$font-weight-regular: 300;
-$font-weight-medium: 500;
-$font-weight-bold: 700;
+//spacing inset
+$spacing_inset-quarck: '4px';
+$spacing_inset-nano: '8px';
+$spacing_inset-xs: '16px';
+$spacing_inset-sm: '24px';
+$spacing_inset-md: '32px';
+$spacing_inset-lg: '40px';
 
-$opacity-none: 0%;
-$opacity-light: 16%;
-$opacity-medium: 40%;
-$opacity-intense: 64%;
-$opacity-semi-opaque: 80%;
+//spacing squish
+$spacing_squish-quarck: '4px 8px';
+$spacing_squish-nano: '8px 16px';
+$spacing_squish-xs: '16px 24px';
+$spacing_squish-sm: '16px 32px';
 
-$border-with-none: 0px;
-$border-with-thin: 1px solid $color-neutral-dark-pure;
-$border-with-thick: 2px solid $color-neutral-dark-pure;
-$border-with-thicker: 4px solid $color-neutral-dark-pure;
+//Motion Tokens Globais
 
-$border-radius-none: 0;
-$border-radius-SM: 4px;
-$border-radius-MD: 8px;
-$border-radius-LG: 16px;
-$border-radius-pill: 500px;
-$border-radius-circular: 500px;
+//Scale
+$scale-small: '5%';
+$scale-medium: '25%';
+$scale-large: '50%';
 
-$shadow-level1: 0px 4px 8px rgba(18, 18, 18, 0.16);
-$shadow-level2: 0px 8px 16px rgba(18, 18, 18, 0.16);
-$shadow-level3: 0px 16px 32px rgba(18, 18, 18, 0.16);
-$shadow-level4: 0px 24px 48px rgba(18, 18, 18, 0.16);
+//Rotation
+$rotation-tilt: '90';
+$rotation-flip: '180';
+$rotation-roll: '360';
 
-$spacing-squish-XS: 8px 16px;
-$spacing-squish-SM: 16px 24px;
-$spacing-squish-MD: 16px 32px;
-$spacing-squish-LG: 24px 40px;
+//Velocity
+$velocity-slow: '0.275';
+$velocity-medium: '0.225';
+$velocity-fast: '0.2';
 
-$spacing-inset-XXS: 4px;
-$spacing-inset-XS: 8px;
-$spacing-inset-SM: 16px;
-$spacing-inset-MD: 24px;
-$spacing-inset-LG: 32px;
-$spacing-inset-XL: 48px;
+//Vibe
+$vibe-soft: 'Cubic-bezier(0.48, 0, 0.48, 1)';
+$vibe-calm: 'Cubic-bezier(0.64, 0, 0.92, 1)';
+$vibe-energic: 'Cubic-bezier(0.08, 0, 0.35, 1)';
 
-textarea:focus, input:focus, select:focus{
-    outline: 0;
-    border: $border-with-thick;
-} 
+//Typograph
 
-* {
-   font-family: $font-family-base;
-}
+//Highlights
+$font-family-highlight: 'Reckless';
+$font-weight-bold: '700';
+$font-weight-light: '600';
+$font-weight-regular: '400';
 
-.component{
-    left:50%;
-    top:50%;
-    margin-left:-100px; /* Metade do valor da Largura */
-    margin-top:-25px; /* Metade da valor da Altura */
-    position:absolute;
-    width:300px; /* Valor da Largura */
-    height:100px; /* Valor da Altura */
-}
+//Base
+$font-family-base: 'ABC Diatype';
+$font-weight-bold: '700';
+$font-weight-light: '600';
+$font-weight-regular: '400';
+
+//Brand Colors
+
+//Primary
+$brand-color-primary-pure: '#000000';
+$brand-color-primary-light: '#A3A3A3';
+$brand-color-primary-medium: '#666666';
+$brand-color-primary-dark: '#292929';
+
+//Secundary
+$brand-color-secundary-pure: '#3C875F';
+$brand-color-secundary-light: '#66E8A3';
+$brand-color-secundary-medium: '#50B57F';
+$brand-color-secundary-dark: '#4D695A';
+
+//Highlights
+$highlight-color-pure: '#F673AD';
+$highlight-color-light: '#FDD9E9';
+$highlight-color-medium: '#900945';
+$highlight-color-dark: '#430420';
+
+//Neutral
+$neutral-color-low-pure: '#000000';
+$neutral-color-low-light: '#A3A3A3';
+$neutral-color-low-medium: '#666666';
+$neutral-color-low-dark: '#292929';
+
+$neutral-color-high-pure: '#FFFFFF';
+$neutral-color-high-light: '#F5F5F5';
+$neutral-color-high-medium: '#E0E0E0';
+$neutral-color-high-dark: '#D3D3D3';
+
+//Feedback
+$feedback-color-warning-pure: '##9847F5';
+$feedback-color-warning-light: '#D9BBFB';
+$feedback-color-warning-medium: '#6D469B';
+$feedback-color-warning-dark: '#4E148F';
+
+$feedback-color-helper-pure: '#FF8A00';
+$feedback-color-helper-light: '#FFE3C2';
+$feedback-color-helper-medium: '#CC6E00';
+$feedback-color-helper-dark: '#7A4200';
+
+$feedback-color-info-pure: '#1474FF';
+$feedback-color-info-light: '#D6E7FF';
+$feedback-color-info-medium: '#00327A';
+$feedback-color-info-dark: '#001129';
+
+$feedback-color-success-pure: '#3C875F';
+$feedback-color-success-light: '#66E8A3';
+$feedback-color-success-medium: '#50B57F';
+$feedback-color-success-dark: '#4D695A';
+
+$feedback-color-fail-pure: '#FF8A00';
+$feedback-color-fail-light: '#FB4B7A';
+$feedback-color-fail-medium: '#FA0043';
+$feedback-color-fail-dark: '#7A253C';
+
+//Motion
+
+//Switch
+$switch-low: $velocity-slow, $vibe-soft;
+$switch-medium: $velocity-medium, $vibe-calm;
+$switch-fast: $velocity-fast, $vibe-energetic;
+
+//Spin
+$spin-low: $rotation-tilt, $velocity-slow, $vibe-soft;
+$spin-medium: $rotation-flip, $velocity-medium, $vibe-calm;
+$spin-fast: $rotation-tilt, $velocity-fast, $vibe-energetic;
+
+//Expand
+$expand-low: $scale-small, $velocity-fast, $vibe-soft;
+$expand-medium: $scale-medium, $velocity-medium, $vibe-calm;
+$expand-fast: $scale-large, $velocity-slow, $vibe-energetic;
+
+/* Conversion Px in REM
+1 = 0.063
+2 = 0.125
+4 = 0.25
+8 = 0.5
+12 = 0.75
+14 = 0.875
+16 = 1
+20 = 1.25
+24 = 1.5
+32 = 2
+40 = 2.5
+48 = 3
+56 = 3.5
+64 = 4
+72 = 4.5
+80 = 5
+88 = 5.5
+96 = 6
+*/
